@@ -15,10 +15,12 @@ ActiveRecord::Schema.define(version: 2020_12_07_015504) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cupcakes", force: :cascade do |t|
+  create_table "desserts", force: :cascade do |t|
     t.string "name"
+    t.string "type"
     t.text "description"
     t.string "image_url"
+    t.decimal "price", precision: 8, scale: 2
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

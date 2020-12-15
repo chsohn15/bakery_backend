@@ -1,2 +1,0 @@
-class Cupcake < ApplicationRecord
-end
