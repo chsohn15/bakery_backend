@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+azure = Store.create(name: 'Azure Sky Bakery', location: 'Washington, D.C.')
+
+
