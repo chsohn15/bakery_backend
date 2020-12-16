@@ -7,6 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
+Store.destroy_all
+Dessert.destroy_all
 
 azure = Store.create(
     name: 'Azure Sky Bakery', 
@@ -48,12 +50,15 @@ cupcakes = [
     
 ]
 
-des1 = Dessert.create(
-    name: Faker::Dessert.flavor, 
-    type: 'cupcake',
-    image_url: ,
-    price: Faker::Number.decimal(l_digits: 2)
-)
+cupcakes.each do |cupcake| 
+    Dessert.create(
+    name: cupcake[:name], 
+    variety: 'cupcake',
+    image_url: cupcake[:image_url],
+    price: 3.00,
+    store: azure
+    )
+end
 
 
 
