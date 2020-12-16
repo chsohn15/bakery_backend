@@ -33,6 +33,18 @@ cupcakes = [
         name: 'Vanilla Filled with Lemon Curd',
         image_url: 'https://www.spoonfulofflavor.com/wp-content/uploads/2018/01/Lemon-Coconut-Cupcakes-with-Vanilla-Buttercream-Frosting_2440-660x990.jpg'
     },
+    {
+        name: 'Flourless Chocolate',
+        image_url: 'https://www.mamaknowsglutenfree.com/wp-content/uploads/2019/08/glutenfreechocolatecupcakes-rc1.jpg'
+    },
+    {
+        name: 'Red Velvet',
+        image_url: 'https://media1.popsugar-assets.com/files/thumbor/fRYyLxJIABbxA8iduRUpSn_VdLI/fit-in/1200x630/filters:format_auto-!!-:strip_icc-!!-:fill-!white!-/2013/02/05/5/192/1922664/a6cb03d09abcc535_Red_Velvet/i/Georgetown-Cupcake-Red-Velvet-Cupcakes-Recipe.jpg'
+    },
+    {
+        name: 'Vanilla Vanilla',
+        image_url: 'https://assets.wsimgs.com/wsimgs/ab/images/dp/recipe/202032/0023/img95l.jpg'
+    },
     
 ]
 
