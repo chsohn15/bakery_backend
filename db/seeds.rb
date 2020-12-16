@@ -14,13 +14,26 @@ azure = Store.create(
 
 cupcakes = [
     {
-        name: 'Pistachio with passionfruit mousse',
+        name: 'Pistachio with Passionfruit Mousse',
         image_url: 'https://www.realmomkitchen.com/wp-content/uploads/2011/03/Pistachio-Cupcakes.jpg'
     },
     {
-        name: 'Pumpkin chocolate chip',
+        name: 'Pumpkin Chocolate Chip',
         image_url: 'https://cdn.sallysbakingaddiction.com/wp-content/uploads/2013/08/Chocolate-Pumpkin-Cupcakes.jpg'
-    }
+    },
+    {
+        name: 'Peppermint Mocha',
+        image_url: 'https://bakerbynature.com/wp-content/uploads/2015/11/IMG_1681-2-2-copy-2.jpg'
+    },
+    {
+        name: 'Boston Cream',
+        image_url: 'https://www.browneyedbaker.com/wp-content/uploads/2013/09/boston-cream-cupcakes-12-754.jpg'
+    },
+    {
+        name: 'Vanilla Filled with Lemon Curd',
+        image_url: 'https://www.spoonfulofflavor.com/wp-content/uploads/2018/01/Lemon-Coconut-Cupcakes-with-Vanilla-Buttercream-Frosting_2440-660x990.jpg'
+    },
+    
 ]
 
 des1 = Dessert.create(
