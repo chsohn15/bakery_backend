@@ -1,4 +1,4 @@
-class Desserts Controller < ApplicationController
+class DessertsController < ApplicationController
     def index 
         desserts = Dessert.all 
         render json: desserts
