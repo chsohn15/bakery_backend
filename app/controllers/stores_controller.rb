@@ -3,5 +3,4 @@ class StoresController < ApplicationController
         stores = Store.all 
         render json: stores, include: [:desserts]
     end
-
 end
